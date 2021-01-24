@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "name": "tbrq",
+      "type": "datetime",
+      "title": "填报日期",
+      "readonly": true,
+      "defaultval": "now",
+      "required": true
+    },
+    {
+      "name": "mqszd",
+      "type": "citys",
+      "title": "目前所在地",
+      "required": true
+    },
+    {
+      "name": "sfjcs110",
+      "type": "radio",
+      "title": "近14天是否有与疫情中、高风险地区人员的接触史？",
+      "required": true,
+      "options": [
+        {
+          "title": "是"
+        },
+        {
+          "title": "否"
+        }
+      ]
+    },
+    {
+      "name": "sfjcs2",
+      "type": "radio",
+      "title": "近14天是否有与疑似、确诊人员的接触史?",
+      "required": true,
+      "options": [
+        {
+          "title": "是"
+        },
+        {
+          "title": "否"
+        }
+      ]
+    },
+    {
+      "name": "sfdgyq0",
+      "type": "radio",
+      "title": "近14天是否有到过疫情中风险地区所在区（县），近21天是否有到过疫情高风险地区所在城市？",
+      "required": true,
+      "options": [
+        {
+          "title": "是"
+        },
+        {
+          "title": "否"
+        }
+      ]
+    },
+    {
+      "name": "sfcyyxgc",
+      "type": "radio",
+      "title": "现是否处于医学观察状态？",
+      "required": true,
+      "options": [
+        {
+          "title": "是"
+        },
+        {
+          "title": "否"
+        }
+      ]
+    },
+    {
+      "name": "yxgcxx",
+      "type": "textarea",
+      "title": "若处于医学观察状态，请填写隔离地点和隔离起始时间？",
+      "required": false
+    },
+    {
+      "name": "sfcyjjgl",
+      "type": "radio",
+      "title": "现是否处于居家隔离状态？",
+      "required": true,
+      "options": [
+        {
+          "title": "是"
+        },
+        {
+          "title": "否"
+        }
+      ]
+    },
+    {
+      "name": "jjglxx",
+      "type": "textarea",
+      "title": "若处于居家隔离状态，请填写隔离地点和隔离起始时间？",
+      "required": false
+    },
+    {
+      "name": "xstzk",
+      "type": "radio",
+      "title": "现身体状况，是否存在发热体温、寒战、咳嗽、胸闷以及呼吸困难等症状？",
+      "required": true,
+      "options": [
+        {
+          "title": "是"
+        },
+        {
+          "title": "否"
+        }
+      ]
+    },
+    {
+      "name": "jssfjcs10",
+      "type": "radio",
+      "title": "同住家属近14天是否有与疫情中、高风险地区人员的接触史？",
+      "required": true,
+      "options": [
+        {
+          "title": "是"
+        },
+        {
+          "title": "否"
+        }
+      ]
+    },
+    {
+      "name": "jssfjcs2",
+      "type": "radio",
+      "title": "同住家属近14天是否有与疑似、确诊人员的接触史？",
+      "required": true,
+      "options": [
+        {
+          "title": "是"
+        },
+        {
+          "title": "否"
+        }
+      ]
+    },
+    {
+      "name": "jssfdgyq",
+      "type": "radio",
+      "title": "同住家属近14天是否到过疫情中、高风险地区？",
+      "required": true,
+      "options": [
+        {
+          "title": "是"
+        },
+        {
+          "title": "否"
+        }
+      ]
+    },
+    {
+      "name": "jssfcyyxgc",
+      "type": "radio",
+      "title": "同住家属现是否处于医学观察状态?",
+      "required": true,
+      "options": [
+        {
+          "title": "是"
+        },
+        {
+          "title": "否"
+        }
+      ]
+    },
+    {
+      "name": "hzjkm",
+      "type": "radio",
+      "title": "今日申领学校所在地健康码的颜色? What's the color of today's health code?",
+      "required": true,
+      "nocache": true,
+      "options": [
+        {
+          "title": "绿码(Green code)"
+        },
+        {
+          "title": "黄码(Yellow code)"
+        },
+        {
+          "title": "红码(Red code)"
+        },
+        {
+          "title": "橙码(Orange code)"
+        }
+      ]
+    },
+    {
+      "name": "sfcrj",
+      "type": "radio",
+      "title": "本人或家庭成员(包括其他亲密接触人员)是否有近28日入境或未来7日拟入境的情况?Have you or your family members(including other close contact persons) entered China over the past 28 days or plan to enter China in 7 days?",
+      "required": true,
+      "nocache": true,
+      "options": [
+        {
+          "title": "是 Yes(请及时向所在单位报告实际情况,Please contact your college/school immediately.)"
+        },
+        {
+          "title": "否 No"
+        }
+      ]
+    }
+  ],
+  "answer": {
+    "填报日期": "2021-01-24",
+    "目前所在地": "校内 校内 校内",
+    "近14天是否有与疫情中、高风险地区人员的接触史？": "否",
+    "近14天是否有与疑似、确诊人员的接触史?": "否",
+    "近14天是否有到过疫情中风险地区所在区（县），近21天是否有到过疫情高风险地区所在城市？": "否",
+    "现是否处于医学观察状态？": "否",
+    "若处于医学观察状态，请填写隔离地点和隔离起始时间？": "",
+    "现是否处于居家隔离状态？": "否",
+    "若处于居家隔离状态，请填写隔离地点和隔离起始时间？": "",
+    "现身体状况，是否存在发热体温、寒战、咳嗽、胸闷以及呼吸困难等症状？": "否",
+    "同住家属近14天是否有与疫情中、高风险地区人员的接触史？": "否",
+    "同住家属近14天是否有与疑似、确诊人员的接触史？": "否",
+    "同住家属近14天是否到过疫情中、高风险地区？": "否",
+    "同住家属现是否处于医学观察状态?": "否",
+    "今日申领学校所在地健康码的颜色? What's the color of today's health code?": "绿码(Green code)",
+    "本人或家庭成员(包括其他亲密接触人员)是否有近28日入境或未来7日拟入境的情况?Have you or your family members(including other close contact persons) entered China over the past 28 days or plan to enter China in 7 days?": "否 No"
+  }
+}

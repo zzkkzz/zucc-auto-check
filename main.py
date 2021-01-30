@@ -4,7 +4,7 @@ import requests
 import datetime
 
 
-def sign(school_id, password, location='校内 校内 校内'):
+def sign(school_id, password, location='校内 校内 校内', auto_position='浙江省 杭州市'):
     # 获取 JSESSIONID
     school_id = school_id.strip()
     password = password.strip()
@@ -54,6 +54,7 @@ def sign(school_id, password, location='校内 校内 校内'):
                 answer = form['answer']
                 answer["填报日期"] = str(
                     datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=8))).date())
+                answer["自动定位"] = auto_position
                 answer["目前所在地"] = location
                 data = json.dumps({"examenSchemeId": 2, "examenTitle": "师生报平安", "answer": answer})
                 headers = {'Content-Type': 'application/json'}
@@ -93,7 +94,7 @@ def wechatNotice(SCKey, message):
 
 
 if __name__ == '__main__':
-    msg = sign(os.environ["SCHOOL_ID"], os.environ["PASSWORD"], os.environ["LOCATION"])
+    msg = sign(os.environ["SCHOOL_ID"], os.environ["PASSWORD"], os.environ["LOCATION"], os.environ["AUTO_POSITION"])
     print(msg)
     if os.environ["SCKEY"] != '':
         wechatNotice(os.environ["SCKEY"], msg)

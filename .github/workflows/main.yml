@@ -24,5 +24,6 @@ jobs:
           SCHOOL_ID: ${{ secrets.SCHOOL_ID }}
           PASSWORD: ${{ secrets.PASSWORD }}
           LOCATION: ${{ secrets.LOCATION }}
+          AUTO_POSITION: ${{ secrets.AUTO_POSITION }}
           SCKEY: ${{ secrets.SCKEY }}
         run: python main.py

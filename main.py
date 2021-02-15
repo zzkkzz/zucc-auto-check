@@ -78,14 +78,14 @@ def sign(school_id, password, location='校内 校内 校内', auto_position='�
 
 def wechatNotice(SCKey, message):
     print(message)
-    url = 'https://sc.ftqq.com/{0}.send'.format(SCKey)
+    url = 'https://sctapi.ftqq.com/{0}.send'.format(SCKey)
+    print(url)
     data = {
-        'text': message,
-        "desp": ""
+        'title': message,
     }
     try:
         r = requests.post(url, data=data)
-        if r.json()["errmsg"] == 'success':
+        if r.json()["data"]["error"] == 'SUCCESS':
             print("微信通知成功")
         else:
             print("微信通知失败")

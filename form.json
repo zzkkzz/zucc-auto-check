@@ -179,7 +179,6 @@
       "type": "radio",
       "title": "今日申领学校所在地健康码的颜色? What's the color of today's health code?",
       "required": true,
-      "nocache": true,
       "options": [
         {
           "title": "绿码(Green code)"
@@ -200,7 +199,6 @@
       "type": "radio",
       "title": "本人或家庭成员(包括其他亲密接触人员)是否有近28日入境或未来7日拟入境的情况?Have you or your family members(including other close contact persons) entered China over the past 28 days or plan to enter China in 7 days?",
       "required": true,
-      "nocache": true,
       "options": [
         {
           "title": "是 Yes(请及时向所在单位报告实际情况,Please contact your college/school immediately.)"

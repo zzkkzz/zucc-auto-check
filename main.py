@@ -96,5 +96,5 @@ def wechatNotice(SCKey, message):
 if __name__ == '__main__':
     msg = sign(os.environ["SCHOOL_ID"], os.environ["PASSWORD"], os.environ["LOCATION"], os.environ["AUTO_POSITION"])
     print(msg)
-    if os.environ["SCKEY"] != '':
+    if os.environ["SCKEY"] != '' && msg != '打卡成功':
         wechatNotice(os.environ["SCKEY"], msg)

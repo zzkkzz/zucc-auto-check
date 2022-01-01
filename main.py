@@ -4,11 +4,13 @@ import requests
 import datetime
 
 
-def sign(school_id, password, location='校内 校内 校内', auto_position='浙江省 杭州市'):
+def sign(school_id, password, location, auto_position, vaccine):
     # 获取 JSESSIONID
     school_id = school_id.strip()
     password = password.strip()
     location = location.strip()
+    vaccine = vaccine.strip()
+
     for retryCnt in range(3):
         try:
             url = 'http://ca.zucc.edu.cn/cas/login'
@@ -56,6 +58,7 @@ def sign(school_id, password, location='校内 校内 校内', auto_position='�
                     datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=8))).date())
                 answer["自动定位(Automatic location)"] = auto_position
                 answer["目前所在地"] = location
+                answer["疫苗接种情况?(Vaccination status?)"] = vaccine
                 data = json.dumps({"examenSchemeId": 2, "examenTitle": "师生报平安", "answer": answer})
                 headers = {'Content-Type': 'application/json'}
                 url = "http://yqdj.zucc.edu.cn/feiyan_api/examen/examenAnswerController/commitAnswer.do"
@@ -94,7 +97,7 @@ def wechatNotice(SCKey, message):
 
 
 if __name__ == '__main__':
-    msg = sign(os.environ["SCHOOL_ID"], os.environ["PASSWORD"], os.environ["LOCATION"], os.environ["AUTO_POSITION"])
+    msg = sign(os.environ["SCHOOL_ID"], os.environ["PASSWORD"], os.environ["LOCATION"], os.environ["AUTO_POSITION"], os.environ["VACCINE"])
     print(msg)
     if os.environ["SCKEY"] != '' and msg != '打卡成功':
         wechatNotice(os.environ["SCKEY"], msg)

@@ -14,7 +14,6 @@
    | ------------- | ---------------- | ------------------------------------------------------------ |
    | SCHOOL_ID     | 学号             | 需通过 [统一身份认证](http://ca.zucc.edu.cn/cas/login)       |
    | PASSWORD      | 统一身份认证密码 | 需通过 [统一身份认证](http://ca.zucc.edu.cn/cas/login)       |
-   | LOCATION      | 目前所在地       | 建议从 [打卡网页](http://yqdj.zucc.edu.cn/feiyan_api/h5/html/daka/daka.html) 选择填写后复制 |
    | AUTO_POSITION | 自动定位        | 建议从 [打卡网页](http://yqdj.zucc.edu.cn/feiyan_api/h5/html/daka/daka.html) 选择填写后复制 |
    | VACCINE       | 疫苗状态        | 建议从 [打卡网页](http://yqdj.zucc.edu.cn/feiyan_api/h5/html/daka/daka.html) 选择填写后复制 |
    | SCKEY（选填） | 微信推送服务     | 详见 [Sever酱](https://sct.ftqq.com/) 配置微信推送打卡结果     |

@@ -16,67 +16,32 @@
       "required": true
     },
     {
-      "name": "mqszd",
-      "type": "citys",
-      "title": "目前所在地",
-      "readonly": true,
-      "required": true
-    },
-    {
       "name": "sfjcs110",
       "type": "radio",
       "title": "近14天是否有与疫情中、高风险地区人员的接触史？(Did you contact any person(s) from medium or high risk area of the epidemic in the past 14 days?)",
       "required": true,
-      "options": [
-        {
-          "title": "是(Yes)"
-        },
-        {
-          "title": "否(NO)"
-        }
-      ]
+      "options": [{ "title": "是(Yes)" }, { "title": "否(NO)" }]
     },
     {
       "name": "sfjcs2",
       "type": "radio",
       "title": "近14天是否有与疑似、确诊人员的接触史?(In the past 14 days, did you contact any COVID-19 suspected or confirmed person(s)?)",
       "required": true,
-      "options": [
-        {
-          "title": "是(Yes)"
-        },
-        {
-          "title": "否(NO)"
-        }
-      ]
+      "options": [{ "title": "是(Yes)" }, { "title": "否(NO)" }]
     },
     {
       "name": "sfdgyq0",
       "type": "radio",
       "title": "近21天是否有中高风险地区旅居史，近14天是否有中高风险地区所在区旅居史？( In the past 21 days, have you been to medium or high-risk area? In the past 14 days, have you been to any places close to medium or high risk area?)",
       "required": true,
-      "options": [
-        {
-          "title": "是(Yes)"
-        },
-        {
-          "title": "否(NO)"
-        }
-      ]
+      "options": [{ "title": "是(Yes)" }, { "title": "否(NO)" }]
     },
     {
       "name": "sfcyyxgc",
       "type": "radio",
       "title": "现是否处于医学观察状态？(Are you under medical observation currently ?)",
       "required": true,
-      "options": [
-        {
-          "title": "是(Yes)"
-        },
-        {
-          "title": "否(NO)"
-        }
-      ]
+      "options": [{ "title": "是(Yes)" }, { "title": "否(NO)" }]
     },
     {
       "name": "yxgcxx",
@@ -89,14 +54,7 @@
       "type": "radio",
       "title": "现是否处于居家隔离状态？(Are you in home quarantine now?)",
       "required": true,
-      "options": [
-        {
-          "title": "是(Yes)"
-        },
-        {
-          "title": "否(NO)"
-        }
-      ]
+      "options": [{ "title": "是(Yes)" }, { "title": "否(NO)" }]
     },
     {
       "name": "jjglxx",
@@ -109,83 +67,41 @@
       "type": "radio",
       "title": "现身体状况，是否存在发热体温、寒战、咳嗽、胸闷以及呼吸困难等症状？( Do you have any symptoms such as fever, chills, cough, chest tightness, and difficulty breathing?)",
       "required": true,
-      "options": [
-        {
-          "title": "是(Yes)"
-        },
-        {
-          "title": "否(NO)"
-        }
-      ]
+      "options": [{ "title": "是(Yes)" }, { "title": "否(NO)" }]
     },
     {
       "name": "jssfjcs10",
       "type": "radio",
       "title": "同住家属近14天是否有与疫情中、高风险地区人员或疑似、确诊人员的接触史？(Did your family member (s) living together contact any person(s) from medium or high risk area in the past 14 days?)",
       "required": true,
-      "options": [
-        {
-          "title": "是(Yes)"
-        },
-        {
-          "title": "否(NO)"
-        }
-      ]
+      "options": [{ "title": "是(Yes)" }, { "title": "否(NO)" }]
     },
     {
       "name": "jssfdgyq",
       "type": "radio",
       "title": "同住家属近14天是否到过疫情中、高风险地区？(Have any family members living together been to medium or high risk area in the past 14 days?)",
       "required": true,
-      "options": [
-        {
-          "title": "是(Yes)"
-        },
-        {
-          "title": "否(NO)"
-        }
-      ]
+      "options": [{ "title": "是(Yes)" }, { "title": "否(NO)" }]
     },
     {
       "name": "jssfcyyxgc",
       "type": "radio",
       "title": "同住家属现是否处于医学观察状态?(Are the family members living together under medical observation?)",
       "required": true,
-      "options": [
-        {
-          "title": "是(Yes)"
-        },
-        {
-          "title": "否(NO)"
-        }
-      ]
+      "options": [{ "title": "是(Yes)" }, { "title": "否(NO)" }]
     },
     {
       "name": "ymjzqk",
       "type": "radio",
       "title": "疫苗接种情况?(Vaccination status?)",
       "options": [
-        {
-          "title": "已接种两针剂疫苗（科兴、生物等）第一针"
-        },
-        {
-          "title": "已接种两针剂疫苗（科兴、生物等）第二针"
-        },
-        {
-          "title": "已接种两针剂疫苗（科兴、生物等）加强针"
-        },
-        {
-          "title": "已接种三针剂疫苗（安徽智飞）第一针"
-        },
-        {
-          "title": "已接种三针剂疫苗（安徽智飞）第二针"
-        },
-        {
-          "title": "已接种三针剂疫苗（安徽智飞）第三针"
-        },
-        {
-          "title": "未接种疫苗"
-        }
+        { "title": "已接种两针剂疫苗（科兴、生物等）第一针" },
+        { "title": "已接种两针剂疫苗（科兴、生物等）第二针" },
+        { "title": "已接种两针剂疫苗（科兴、生物等）加强针" },
+        { "title": "已接种三针剂疫苗（安徽智飞）第一针" },
+        { "title": "已接种三针剂疫苗（安徽智飞）第二针" },
+        { "title": "已接种三针剂疫苗（安徽智飞）第三针" },
+        { "title": "未接种疫苗" }
       ]
     },
     {
@@ -194,18 +110,10 @@
       "title": "今日申领学校所在地健康码的颜色? What's the color of today's health code?",
       "required": true,
       "options": [
-        {
-          "title": "绿码(Green code)"
-        },
-        {
-          "title": "黄码(Yellow code)"
-        },
-        {
-          "title": "红码(Red code)"
-        },
-        {
-          "title": "橙色(Orange code)"
-        }
+        { "title": "绿码(Green code)" },
+        { "title": "黄码(Yellow code)" },
+        { "title": "红码(Red code)" },
+        { "title": "橙色(Orange code)" }
       ]
     },
     {
@@ -217,16 +125,13 @@
         {
           "title": "是 Yes(请及时向所在单位报告实际情况,Please contact your college/school immediately.)"
         },
-        {
-          "title": "否 No"
-        }
+        { "title": "否 No" }
       ]
     }
   ],
   "answer": {
     "填报日期(Date)": "",
     "自动定位(Automatic location)": "",
-    "目前所在地": "",
     "近14天是否有与疫情中、高风险地区人员的接触史？(Did you contact any person(s) from medium or high risk area of the epidemic in the past 14 days?)": "否(NO)",
     "近14天是否有与疑似、确诊人员的接触史?(In the past 14 days, did you contact any COVID-19 suspected or confirmed person(s)?)": "否(NO)",
     "近21天是否有中高风险地区旅居史，近14天是否有中高风险地区所在区旅居史？( In the past 21 days, have you been to medium or high-risk area? In the past 14 days, have you been to any places close to medium or high risk area?)": "否(NO)",

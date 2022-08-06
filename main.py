@@ -45,13 +45,11 @@ def sign(school_id, password, auto_position, vaccine):
             url = 'http://yqdj.zucc.edu.cn/feiyan_api/examen/examenSchemeController/findExamenSchemeById.do'
             r = requests.post(url, cookies=cookies, data={'esId': 2}, timeout=30)
             questions = json.loads(r.json()['data']['examen']['scheme'])['questions']
-            # print(questions)
+
             # 填写表单并提交
             with open("./form.json", "r", encoding='utf-8') as f:
                 form = json.load(f)
                 if form['questions'] != questions:
-                    # print(form['questions'])
-                    # print(questions)
                     return "打卡表单已更新，当前版本不可用"
 
                 answer = form['answer']

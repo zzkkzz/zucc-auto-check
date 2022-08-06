@@ -98,9 +98,7 @@ def wechatNotice(SCKey, message):
 
 
 if __name__ == '__main__':
-    # msg = sign(os.environ["SCHOOL_ID"], os.environ["PASSWORD"], os.environ["AUTO_POSITION"], os.environ["VACCINE"])
-    msg = sign(school_id="22101002",password="130410",auto_position='浙江省 杭州市 拱墅区',vaccine='已接种第三针( booster jab received)')
-
+    msg = sign(os.environ["SCHOOL_ID"], os.environ["PASSWORD"], os.environ["AUTO_POSITION"], os.environ["VACCINE"])
     print(msg)
-    # if os.environ["SCKEY"] != '' and msg != '打卡成功':
-    #     wechatNotice(os.environ["SCKEY"], msg)
+    if os.environ["SCKEY"] != '' and msg != '打卡成功':
+        wechatNotice(os.environ["SCKEY"], msg)

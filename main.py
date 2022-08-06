@@ -47,7 +47,7 @@ def sign(school_id, password, auto_position, vaccine):
             questions = json.loads(r.json()['data']['examen']['scheme'])['questions']
             # print(questions)
             # 填写表单并提交
-            with open("./form_2.json", "r", encoding='utf-8') as f:
+            with open("./form.json", "r", encoding='utf-8') as f:
                 form = json.load(f)
                 if form['questions'] != questions:
                     # print(form['questions'])

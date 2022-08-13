@@ -1,167 +1,167 @@
 {
-  "questions": [
-      {
-          "name": "tbrq",
-          "type": "datetime",
-          "title": "填报日期(Date)",
-          "readonly": true,
-          "defaultval": "now",
-          "required": true
-      },
-      {
-          "name": "zddy",
-          "type": "lbs",
-          "title": "自动定位(Automatic location)",
-          "readonly": true,
-          "required": true
-      },
-      {
-          "name": "jrsfzx",
-          "type": "radio",
-          "title": "今日是否在校？(Are you on campus today?)",
-          "required": true,
-          "options": [{"title": "是(Yes)"},{"title": "否(NO)"}
-          ]
-      },
-      {
-          "name": "sdlh",
-          "type": "radio",
-          "title": "近2天内是否曾经离杭？(Did you ever leave Hangzhou in past two days?)",
-          "required": true,
-          "options": [
-              {
-                  "title": "是(Yes)"
-              },
-              {
-                  "title": "否(NO)"
-              }
-          ]
-      },
-      {
-          "name": "jqrsflj",
-          "type": "radio",
-          "title": "近7天是否有国内中高风险地区所在区旅居史?( In the past 7 days, have you been to any places close to medium or high risk area?)",
-          "required": true,
-          "options": [
-              {
-                  "title": "是(Yes)"
-              },
-              {
-                  "title": "否(NO)"
-              }
-          ]
-      },
-      {
-          "name": "jqrsfys",
-          "type": "radio",
-          "title": "近7天是否有（或被告知有）与疑似、确诊人员或密切接触者的接触史? (In the past 7 days，did you contact any COVID-19 suspected or confirmed person(s) or close contacts ?)",
-          "required": true,
-          "options": [
-              {
-                  "title": "是(Yes)"
-              },
-              {
-                  "title": "否(NO)"
-              }
-          ]
-      },
-      {
-          "name": "sfjkgk",
-          "type": "radio",
-          "title": "现是否处于健康管理（管控）期? 如是，请暂缓来校。(Are you under health management period currently ? If yes, please do not come to school for the time being.) ",
-          "required": true,
-          "options": [
-              {
-                  "title": "否(NO)"
-              },
-              {
-                  "title": "集中医学隔离期（medical quarantine）"
-              },
-              {
-                  "title": "居家健康观察期（medical observation at home）"
-              },
-              {
-                  "title": "日常健康监测期（daily health monitoring）"
-              }
-          ]
-      },
-      {
-          "name": "xstzk",
-          "type": "radio",
-          "title": "现身体状况，是否存在发热体温、寒战、咳嗽、胸闷以及呼吸困难等症状? (Do you have any symptoms such as fever, chills, cough, chest tightness and dyspnea?)",
-          "required": true,
-          "options": [
-              {
-                  "title": "是(Yes)"
-              },
-              {
-                  "title": "否(NO)"
-              }
-          ]
-      },
-      {
-          "name": "jssfjcs10",
-          "type": "radio",
-          "title": "同住家属（人员）是否有上述与疫情相关的情况？(Did your family members(s) living together have any situation mentioned above ?)",
-          "required": true,
-          "options": [
-              {
-                  "title": "是(Yes)"
-              },
-              {
-                  "title": "否(NO)"
-              }
-          ]
-      },
-      {
-          "name": "jzym",
-          "type": "radio",
-          "title": "当前疫苗接种情况? (Vaccination status?)",
-          "required": true,
-          "options": [
-              {
-                  "title": "已接种第一针 (first jab received) "
-              },
-              {
-                  "title": "已接种第二针（已满6个月）(second jab received, more than 6 months)"
-              },
-              {
-                  "title": "已接种第二针（未满6个月）(second jab received, less than 6 months)"
-              },
-              {
-                  "title": "已接种第三针( booster jab received)"
-              },
-              {
-                  "title": "未接种(unvaccinated)"
-              }
-          ]
-      },
-      {
-          "name": "brjssfmj",
-          "type": "radio",
-          "title": "本人或家庭成员(包括其他亲密接触人员)是否有近10日入境或未来7天内拟入境的情况? (Have you or your family members(including other close contact persons) entered China over the past 10 days or plan to enter China in 7 days?)",
-          "required": true,
-          "options": [
-              {
-                  "title": "是(Yes)"
-              },
-              {
-                  "title": "否(NO)"
-              }
-          ]
-      }
-  ],
-  "answer": {
-      "填报日期(Date)": "",
-      "自动定位(Automatic location)": "",
-      "今日是否在校？(Are you on campus today?)":"是(Yes)",
-      "近2天内是否曾经离杭？(Did you ever leave Hangzhou in past two days?)":"否(NO)",
-      "近7天是否有国内中高风险地区所在区旅居史?( In the past 7 days, have you been to any places close to medium or high risk area?)":"否(NO)",
-      "近7天是否有（或被告知有）与疑似、确诊人员或密切接触者的接触史? (In the past 7 days，did you contact any COVID-19 suspected or confirmed person(s) or close contacts ?)":"否(NO)",
-      "现是否处于健康管理（管控）期? 如是，请暂缓来校。(Are you under health management period currently ? If yes, please do not come to school for the time being.) ":"否(NO)",
-      "现身体状况，是否存在发热体温、寒战、咳嗽、胸闷以及呼吸困难等症状? (Do you have any symptoms such as fever, chills, cough, chest tightness and dyspnea?)":"否(NO)",
-      "同住家属（人员）是否有上述与疫情相关的情况？(Did your family members(s) living together have any situation mentioned above ?)":"否(NO)",
-      "当前疫苗接种情况? (Vaccination status?)":"",
-      "本人或家庭成员(包括其他亲密接触人员)是否有近10日入境或未来7天内拟入境的情况? (Have you or your family members(including other close contact persons) entered China over the past 10 days or plan to enter China in 7 days?)":"否(NO)"
-  }
+    "questions": [
+        {
+            "name": "tbrq",
+            "type": "datetime",
+            "title": "填报日期(Date)",
+            "readonly": true,
+            "defaultval": "now",
+            "required": true
+        },
+        {
+            "name": "zddy",
+            "type": "lbs",
+            "title": "自动定位(Automatic location)",
+            "readonly": true,
+            "required": true
+        },
+        {
+            "name": "jrsfzx",
+            "type": "radio",
+            "title": "今日是否在校？(Are you on campus today?)",
+            "required": true,
+            "options": [{"title": "是(Yes)"},{"title": "否(NO)"}
+            ]
+        },
+        {
+            "name": "sdlh",
+            "type": "radio",
+            "title": "近2天内是否曾经离杭？(Did you ever leave Hangzhou in past two days?)",
+            "required": true,
+            "options": [
+                {
+                    "title": "是(Yes)"
+                },
+                {
+                    "title": "否(NO)"
+                }
+            ]
+        },
+        {
+            "name": "jqrsflj",
+            "type": "radio",
+            "title": "近7天是否有国内高中低风险地区旅居史?( In the past 7 days, have you ever been to any low, medium or high risk areas?)",
+            "required": true,
+            "options": [
+                {
+                    "title": "是(Yes)"
+                },
+                {
+                    "title": "否(NO)"
+                }
+            ]
+        },
+        {
+            "name": "jqrsfys",
+            "type": "radio",
+            "title": "近7天是否有（或被告知有）与疑似、确诊人员或密切接触者的接触史? (In the past 7 days，did you contact any COVID-19 suspected or confirmed person(s) or close contacts ?)",
+            "required": true,
+            "options": [
+                {
+                    "title": "是(Yes)"
+                },
+                {
+                    "title": "否(NO)"
+                }
+            ]
+        },
+        {
+            "name": "sfjkgk",
+            "type": "radio",
+            "title": "现是否处于健康管理（管控）期? 如是，请暂缓来校。(Are you under health management period currently ? If yes, please do not come to school for the time being.) ",
+            "required": true,
+            "options": [
+                {
+                    "title": "否(NO)"
+                },
+                {
+                    "title": "集中医学隔离期（medical quarantine）"
+                },
+                {
+                    "title": "居家健康观察期（medical observation at home）"
+                },
+                {
+                    "title": "日常健康监测期（daily health monitoring）"
+                }
+            ]
+        },
+        {
+            "name": "xstzk",
+            "type": "radio",
+            "title": "现身体状况，是否存在发热体温、寒战、咳嗽、胸闷以及呼吸困难等症状? (Do you have any symptoms such as fever, chills, cough, chest tightness and dyspnea?)",
+            "required": true,
+            "options": [
+                {
+                    "title": "是(Yes)"
+                },
+                {
+                    "title": "否(NO)"
+                }
+            ]
+        },
+        {
+            "name": "jssfjcs10",
+            "type": "radio",
+            "title": "同住家属（人员）是否有上述与疫情相关的情况？(Did your family members(s) living together have any situation mentioned above ?)",
+            "required": true,
+            "options": [
+                {
+                    "title": "是(Yes)"
+                },
+                {
+                    "title": "否(NO)"
+                }
+            ]
+        },
+        {
+            "name": "jzym",
+            "type": "radio",
+            "title": "当前疫苗接种情况? (Vaccination status?)",
+            "required": true,
+            "options": [
+                {
+                    "title": "已接种第一针 (first jab received) "
+                },
+                {
+                    "title": "已接种第二针（已满6个月）(second jab received, more than 6 months)"
+                },
+                {
+                    "title": "已接种第二针（未满6个月）(second jab received, less than 6 months)"
+                },
+                {
+                    "title": "已接种第三针( booster jab received)"
+                },
+                {
+                    "title": "未接种(unvaccinated)"
+                }
+            ]
+        },
+        {
+            "name": "brjssfmj",
+            "type": "radio",
+            "title": "本人或家庭成员(包括其他亲密接触人员)是否有近10日入境或未来7天内拟入境的情况? (Have you or your family members(including other close contact persons) entered China over the past 10 days or plan to enter China in 7 days?)",
+            "required": true,
+            "options": [
+                {
+                    "title": "是(Yes)"
+                },
+                {
+                    "title": "否(NO)"
+                }
+            ]
+        }
+    ],
+    "answer": {
+        "填报日期(Date)": "",
+        "自动定位(Automatic location)": "",
+        "今日是否在校？(Are you on campus today?)":"是(Yes)",
+        "近2天内是否曾经离杭？(Did you ever leave Hangzhou in past two days?)":"否(NO)",
+        "近7天是否有国内中高风险地区所在区旅居史?( In the past 7 days, have you been to any places close to medium or high risk area?)":"否(NO)",
+        "近7天是否有（或被告知有）与疑似、确诊人员或密切接触者的接触史? (In the past 7 days，did you contact any COVID-19 suspected or confirmed person(s) or close contacts ?)":"否(NO)",
+        "现是否处于健康管理（管控）期? 如是，请暂缓来校。(Are you under health management period currently ? If yes, please do not come to school for the time being.) ":"否(NO)",
+        "现身体状况，是否存在发热体温、寒战、咳嗽、胸闷以及呼吸困难等症状? (Do you have any symptoms such as fever, chills, cough, chest tightness and dyspnea?)":"否(NO)",
+        "同住家属（人员）是否有上述与疫情相关的情况？(Did your family members(s) living together have any situation mentioned above ?)":"否(NO)",
+        "当前疫苗接种情况? (Vaccination status?)":"",
+        "本人或家庭成员(包括其他亲密接触人员)是否有近10日入境或未来7天内拟入境的情况? (Have you or your family members(including other close contact persons) entered China over the past 10 days or plan to enter China in 7 days?)":"否(NO)"
+    }
 }

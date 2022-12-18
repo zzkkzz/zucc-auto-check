@@ -3,7 +3,7 @@ name: ZUCC Auto Check
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 20 * * *'
+    - cron: '30 10 * * *'
 
 jobs:
   bot:
